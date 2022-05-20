@@ -1,0 +1,99 @@
+
+body {
+	background-color: rgb(95, 189, 116);
+}
+
+.banner{
+	background-image: url('mango.jpg');
+	height: 50vh; 
+	background-size: cover;
+	background-position: center;
+	border-radius: 3px;
+}
+	
+
+h1, h2 {
+	color: white;
+	margin: 20px;
+	text-align: center;
+	
+}
+
+h1 {
+	padding-top: 100px;
+}
+
+#btn-blue{
+	background-color: white;
+	padding: 16px;
+	border-radius: 7px;
+	display: block;
+	width: 150px;
+	margin: 0 auto; 
+	text-align: center;
+	text-decoration: none;
+	border: 1px solid yellow;
+}
+
+#btn-blue:hover {
+	background-color: red;
+	transition: 1s;
+}
+
+.card img {
+    height: 350px;
+    width: 350px;
+    margin: 0 auto;
+}
+
+.cards {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr; 
+	grid-gap: 16px;
+}
+
+.card {
+    width: 450px;
+    text-align: center;
+    background-color: yellow;
+    padding-top: 50px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 6px 3px rgba(0, 0, 0, 35%)
+}
+
+.container {
+	width: 600px;
+	margin: 0 auto;
+	margin-top: 32px;
+	margin-bottom: 32px
+}
+
+.navbar{
+	background-color: white;
+	height: 100px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 15px;
+	border-radius: 10px;
+	position: sticky;
+	top: 0px;
+}
+
+h3{
+	color: white;
+}
+
+.nav-links a{
+	text-decoration: none;
+	color: black;
+	text-transform: uppercase;
+	width: 50px;
+}
+
+p{
+	text-align: center;
+	color: black
+	;
+	font-size: 15px;
+}
